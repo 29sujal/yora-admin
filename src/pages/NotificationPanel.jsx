@@ -74,7 +74,7 @@ const NotificationPanel = ({ onSendNowClick }) => {
                 <p className="text-sm leading-5">
                   Manage account and services linked to your Yoraa account
                 </p>
-                <div className="flex gap-1 items-center">
+                <div className="flex items-center">
                   <img src={Shape} alt="info" className="w-5 h-5" />
                   <img src={editIcon} alt="edit" className="w-4 h-4 cursor-pointer" />
                   <img src={deleteIcon} alt="delete" className="w-4 h-4 cursor-pointer" />
